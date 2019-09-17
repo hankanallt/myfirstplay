@@ -7,8 +7,160 @@
 }
 
 #container{
-    background-image: url(bg1.jpg);
-
+    height:500px;
+    width: auto;
+    margin:5%;
+    padding: 0px;
+    background-image: url(images/bg1.jpg);
+   
 }
 
+#scorehelp{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+#branch{
+    position:absolute;
+    height:5%;
+    width:1150px;
+    margin-top:5%;
+    margin-left:2%;
+    background-color:brown;
+}
+
+.bucket{
+    position:absolute;
+    height:15%;
+    width:8%;
+    margin-top: 4%;
+    background-image: url(images/bucket.jpg);
+    background-repeat: no-repeat;
+    z-index: 100;
+}
+
+#bucket1{
+    left:10%;
+}
+
+#bucket2{
+    left:25%;
+}
+
+#bucket3{
+    left:45%;
+}
+#bucket4{
+    left:65%;
+}
+
+#bucket5{
+    left:85%;
+}
+
+.baloon{
+    position:absolute;
+    top:18%;
+    height:5%;
+    width:2%;
+    background-color:red,blue,white,yellow,green;
+    border-radius:50%;
+    z-index: 99;
+}
+
+#baloon1{
+   left: calc(10% + 8%/2 - 2%/2);
+}
+
+#baloon2{
+   left: calc(25% + 8%/2 - 2%/2);
+}
+
+#baloon3{
+    left: calc(45% + 8%/2 - 2%/2);
+}
+#baloon4{
+    left: calc(65% + 8%/2 - 2%/2);
+}
+
+#baloon5{
+    left: calc(85% + 8%/2 - 2%/2);
+}
+
+.splash{
+    display:none;
+    position:absolute;
+    bottom:0px;
+    height:7%;
+    width:7%;
+    background-image: url(images/splash.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    z-index:11;
+}
+
+#splash1{
+   left: calc(10% + 8%/2 - 2%/2);
+}
+
+#splash2{
+   left: calc(25% + 8%/2 - 2%/2);
+}
+
+#splash3{
+    left: calc(45% + 8%/2 - 2%/2);
+}
+#splash4{
+    left: calc(65% + 8%/2 - 2%/2);
+}
+
+#splash5{
+    left: calc(85% + 8%/2 - 2%/2);
+}
+
+#ground{
+    position:absolute;
+    height:4%;
+    width:1150px;
+    margin-top:5%;
+    margin-left:2%;
+    margin-bottom:10%;
+    background-color:green;
+    bottom:0px;
+    z-index:10;
+}
+
+#bin {
+    height: 100px;
+    width: 85px;
+    position: absolute;
+    bottom: 5px;
+    background: url('images/bin.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    z-index: 11;
+}
+
+#score1{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    bottom: 45%;
+    right: 30%;
+}
+
+#reset {
+    border: 0;
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    top: 40%;
+    font-size: 35px;
+    display: none;
+    cursor: pointer;
+}
 
